@@ -2,7 +2,7 @@
 import { createServer } from "http";
 import { Server } from "socket.io";
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT;
 
 // Creamos un servidor HTTP
 const server = createServer((req, res) => {
